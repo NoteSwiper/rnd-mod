@@ -1,0 +1,12 @@
+{
+  "_fv": 45,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Show \"Welcome message\"",
+    "description": "On enabled, welcome message will sent on world loaded.",
+    "category": "CHAT",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 45,
+  "_type": "tab",
+  "definition": {
+    "name": "Random Mod",
+    "icon": {
+      "value": "Blocks.BROWN_BED"
+    },
+    "showSearch": true
+  }
+}

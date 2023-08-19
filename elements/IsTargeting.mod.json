@@ -1,0 +1,16 @@
+{
+  "_fv": 45,
+  "_type": "attribute",
+  "definition": {
+    "description": "Is Targeting",
+    "minValue": 0.0,
+    "maxValue": 2.0,
+    "defaultValue": 0.0,
+    "isPersistent": false,
+    "entities": [
+      {
+        "value": "CUSTOM:SlimedZombie"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item.rmod.oak_door_spawn_egg": "Oak Door Spawn Egg",
+  "subtitles.slimedzombie.ambient": "Slimed zombie saying bruh",
+  "subtitles.slimedzombie.hurt": "slimed zombie hurts",
+  "entity.rmod.slimed_zombie": "Slimed Zombie",
+  "attribute.rmod.is_targeting": "Is Targeting",
+  "item.rmod.slimed_zombie_spawn_egg": "Slimed Zombie Spawn Egg",
+  "gamerule.showWelcomeMessage": "Show \"Welcome message\"",
+  "itemGroup.tabcreative_item_tab": "Random Mod",
+  "gamerule.showWelcomeMessage.description": "On enabled, welcome message will sent on world loaded.",
+  "entity.rmod.oak_door": "Oak Door",
+  "rndmod.props.chat.usage.help": "/rdmod Usages:\\n\\t/rdmod help - shows the command usage.",
+  "subtitles.slimedzombie.death": "slimed zombie dies"
+}

@@ -1,0 +1,183 @@
+{
+  "mod_elements": [
+    {
+      "name": "CreativeItemTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_item_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RmodCommandHelp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rmod_command_help",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/rmod/procedures/RmodCommandHelpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rdmod",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rdmod",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/rmod/command/RdmodCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SlimedZombie",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimed_zombie",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/rmod/client/renderer/SlimedZombieRenderer.java",
+          "src/main/resources/data/rmod/forge/biome_modifier/slimed_zombie_biome_modifier.json",
+          "src/main/resources/assets/rmod/models/item/slimed_zombie_spawn_egg.json",
+          "src/main/java/me/noteswiper/rmod/entity/SlimedZombieEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "IsTargeting",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_targeting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "OakDoor",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rmod/models/item/oak_door_spawn_egg.json",
+          "src/main/java/me/noteswiper/rmod/client/renderer/OakDoorRenderer.java",
+          "src/main/resources/data/rmod/forge/biome_modifier/oak_door_biome_modifier.json",
+          "src/main/java/me/noteswiper/rmod/entity/OakDoorEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ShowWelcomeMessage",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_welcome_message",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "slimedzombie.ambient",
+      "files": [
+        "slimedzombie_say1",
+        "slimedzombie_say2",
+        "slimedzombie_say3"
+      ],
+      "category": "hostile",
+      "subtitle": "Slimed zombie saying bruh"
+    },
+    {
+      "name": "slimedzombie.hurt",
+      "files": [
+        "slimedzombie_hurt1",
+        "slimedzombie_hurt2"
+      ],
+      "category": "hostile",
+      "subtitle": "slimed zombie hurts"
+    },
+    {
+      "name": "slimedzombie.death",
+      "files": [
+        "slimedzombie_death"
+      ],
+      "category": "hostile",
+      "subtitle": "slimed zombie dies"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.rmod.oak_door_spawn_egg": "Oak Door Spawn Egg",
+      "subtitles.slimedzombie.ambient": "Slimed zombie saying bruh",
+      "subtitles.slimedzombie.hurt": "slimed zombie hurts",
+      "entity.rmod.slimed_zombie": "Slimed Zombie",
+      "attribute.rmod.is_targeting": "Is Targeting",
+      "item.rmod.slimed_zombie_spawn_egg": "Slimed Zombie Spawn Egg",
+      "gamerule.showWelcomeMessage": "Show \"Welcome message\"",
+      "itemGroup.tabcreative_item_tab": "Random Mod",
+      "gamerule.showWelcomeMessage.description": "On enabled, welcome message will sent on world loaded.",
+      "entity.rmod.oak_door": "Oak Door",
+      "rndmod.props.chat.usage.help": "/rdmod Usages:\\n\\t/rdmod help - shows the command usage.",
+      "subtitles.slimedzombie.death": "slimed zombie dies"
+    },
+    "ja_jp": {
+      "item.rmod.oak_door_spawn_egg": "Oak Door Spawn Egg",
+      "subtitles.slimedzombie.ambient": "Slimed zombie saying bruh",
+      "subtitles.slimedzombie.hurt": "slimed zombie hurts",
+      "entity.rmod.slimed_zombie": "Slimed Zombie",
+      "attribute.rmod.is_targeting": "Is Targeting",
+      "item.rmod.slimed_zombie_spawn_egg": "Slimed Zombie Spawn Egg",
+      "gamerule.showWelcomeMessage": "Show \"Welcome message\"",
+      "itemGroup.tabcreative_item_tab": "Random Mod",
+      "gamerule.showWelcomeMessage.description": "On enabled, welcome message will sent on world loaded.",
+      "entity.rmod.oak_door": "Oak Door",
+      "rndmod.props.chat.usage.help": "/rdmod 使用法:\\n\\t/rdmod help - このコマンドの使用法を表示します。",
+      "subtitles.slimedzombie.death": "slimed zombie dies"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rmod",
+    "modName": "randommod",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://github.com/NoteSwiper/rnd-mod/raw/master/updates.json",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "allmods"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "me.noteswiper.rmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300333711
+}
